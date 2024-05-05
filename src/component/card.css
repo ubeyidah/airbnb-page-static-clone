@@ -1,0 +1,48 @@
+.cards-list {
+  display: flex;
+  padding: 20px;
+  overflow-x: auto;
+  gap: 10px;
+}
+.card {
+  width: 175px;
+  font-size: 12px;
+  vertical-align: top;
+  flex-shrink: 0;
+  position: relative;
+}
+.gray {
+  color: #918e9b;
+}
+.bold {
+  font-weight: bold;
+}
+.card .photo {
+  width: 100%;
+}
+.card-stats {
+  display: flex;
+  gap: 3px;
+}
+.card-stats .card-star {
+  height: 14px;
+  margin-top: -3px;
+}
+.card-title {
+  margin: 0;
+  margin-top: 4px;
+  font-weight: normal;
+  font-size: 12px;
+  color: black;
+}
+.sold-out {
+  position: absolute;
+  top: 5px;
+  left: 6px;
+  background: white;
+  padding: 2px 4px;
+  font-size: 12px;
+  font-weight: 600;
+  z-index: 200;
+  border-radius: 4px;
+}
